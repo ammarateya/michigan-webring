@@ -1,28 +1,86 @@
-markdown# Michigan Web Ring ⚡🏈
+# Michigan Web Ring
 
 A collection of personal websites from University of Michigan Computer Science students and alumni, inspired by the classic web rings of the 90s.
 
-## 🚀 Live Site
+## Live Site
 
 Visit the live site at: [michigan-webring.vercel.app](https://michigan-webring.vercel.app)
 
-## 📝 Adding Your Site
+## About
+
+The Michigan Web Ring connects Computer Science students and alumni from the University of Michigan through a curated collection of personal websites. This project revives the nostalgic concept of web rings while providing a modern platform for the UMich CS community to showcase their work and connect with peers.
+
+## Adding Your Site
 
 To add your site to the Michigan Web Ring:
 
 1. **Fork this repository**
-2. **Add your information** to `data/students.csv`
+2. **Add your information** to `data/students.csv` in the format: `Name,Website URL,Graduation Year`
 3. **Open a pull request** using our template
 4. **Wait for verification** of your UMich affiliation
 
 ### Requirements
-- Current student or alumni of UMich Computer Science
+
+- Current student or alumni of University of Michigan Computer Science
 - Professional, appropriate personal website
 - Valid @umich.edu email for verification
+- Website must be accessible and functional
 
-## 🛠 Development
+## Adding the Badge
+
+Show your participation by adding our badge to your website:
+
+```html
+<a href="https://michigan-webring.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://michigan-webring.vercel.app/michigan-logo.svg" alt="Michigan Webring" width="36" height="50">
+</a>
+```
+
+## Contributing
+
+We welcome contributions from the UMich CS community! Please see our contributing guidelines for details on:
+
+- Code style and standards
+- Pull request process
+- Issue reporting
+- Feature requests
+
+## Technology Stack
+
+- **Frontend**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Deployment**: Vercel
+- **Data**: CSV-based student directory
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+## Credits
+
+Inspired by:
+- [se-webring.xyz](https://se-webring.xyz) by @simcard0000 and @janakitti
+- [UBC Web Ring](https://github.com/MichaelFromOrg/ubc-webring) by @MichaelFromOrg
+
+## Contact
+
+For questions or support, please open an issue on GitHub or contact the maintainers through the repository.
+
+## Development
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/AlexCSalinas/michigan-webring.git
+cd michigan-webring
+
 # Install dependencies
 npm install
 
@@ -31,24 +89,18 @@ npm run dev
 
 # Build for production
 npm run build
-🎨 Adding the Badge
-Show your participation by adding our badge to your website:
-html<a href="https://michigan-webring.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="/michigan-logo.svg" alt="Michigan Webring" width="36" height="50">
-</a>
-🤝 Contributing
-We welcome contributions! Please see our contributing guidelines for details.
-📄 License
-MIT License - see LICENSE for details.
-🙏 Credits
-Inspired by:
+```
 
-se-webring.xyz by @simcard0000 and @janakitti
-UBC Web Ring by @MichaelFromOrg
+### Project Structure
 
+```
 
-This is the complete structure! You can now:
-1. `npx create-next-app@latest michigan-webring --typescript --tailwind --eslint --app`
-2. Replace/add all these files in their respective locations
-3. Get the Michigan logo SVG and put it in `public/images/`
-4. Deploy to Vercel!
+This completes the README with all the missing sections:
+- Badge instructions for participants
+- Contributing guidelines
+- Technology stack details
+- License information
+- Credits to inspiration projects
+- Contact information
+
+The README is now comprehensive and professional, providing users with all the information they need to understand, use, and contribute to the project.
