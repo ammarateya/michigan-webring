@@ -11,9 +11,6 @@ interface SearchFiltersProps {
 export function SearchFilters({
   searchTerm,
   setSearchTerm,
-  selectedYear,
-  setSelectedYear,
-  availableYears
 }: SearchFiltersProps) {
   return (
     <div className="mb-8">

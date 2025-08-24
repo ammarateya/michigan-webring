@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { Student } from '@/types/student'
 import { StudentCard } from './StudentCard'
 import { SearchFilters } from './SearchFilters'
-import { Stats } from './Stats'
 import { ThemeToggle } from './ThemeToggle'
 
 interface WebRingProps {

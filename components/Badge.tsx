@@ -5,7 +5,7 @@ export function Badge() {
     <section className="bg-white/10 rounded-xl p-8 backdrop-blur-md">
       <h2 className="text-2xl font-bold text-maize mb-4">Web Ring Badge</h2>
       <p className="text-white/90 mb-6">
-        Add this badge to your website to show you're part of the Michigan Web Ring:
+        Add this badge to your website to show you&apos;re part of the Michigan Web Ring:
       </p>
       
       <div className="text-center mb-6">
