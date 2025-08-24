@@ -1,5 +1,5 @@
 export interface Student {
-    Name: string
-    Website: string
-    GraduationYear: string
+    name: string
+    website: string
+    graduationYear: string
 }

@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import Papa from 'papaparse'
-import { Student } from '@/types/student'
+import { Student } from '@/types/students'
 
 export function getStudents(): Student[] {
   const csvFilePath = path.join(process.cwd(), 'data', 'students.csv')

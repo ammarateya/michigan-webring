@@ -13,14 +13,18 @@ export function SearchFilters({
   setSearchTerm,
 }: SearchFiltersProps) {
   return (
-    <div className="mb-8">
+    <div className="mb-12 relative group max-w-md mx-auto">
+      {/* Clean, minimal search input */}
       <input
         type="text"
-        placeholder="Search by name or year (e.g., 'John' or '2025')..."
+        placeholder="Search by site/year"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="w-full px-4 py-3 bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-lg text-neutral-900 dark:text-neutral-100 placeholder-neutral-500 dark:placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-300 dark:focus:ring-neutral-600 focus:border-transparent transition-all duration-200"
+        className="w-full px-4 py-2 bg-transparent border-b-2 border-neutral-300 dark:border-neutral-600 text-neutral-900 dark:text-neutral-100 placeholder-neutral-500 dark:placeholder-neutral-400 focus:outline-none focus:border-maize dark:focus:border-maize transition-all duration-300 text-center text-lg font-light tracking-wide"
       />
+      
+      {/* Subtle underline animation */}
+      <div className="w-0 group-focus-within:w-full h-0.5 bg-gradient-to-r from-maize to-yellow-400 mx-auto mt-1 transition-all duration-500 rounded-full"></div>
     </div>
   )
 }
